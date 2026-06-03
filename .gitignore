@@ -1,0 +1,32 @@
+# .gitignore для дипломного проєкту
+# Усе у кореневій папці ігнорується...
+/*
+
+# ...крім самого .gitignore
+!/.gitignore
+
+# ...і папки з вихідним кодом симулятора
+!/robot_simulator/
+
+# Стандартні Python-ігнори всередині robot_simulator
+robot_simulator/**/__pycache__/
+robot_simulator/**/*.pyc
+robot_simulator/**/*.pyo
+robot_simulator/**/*.pyd
+robot_simulator/.venv/
+robot_simulator/venv/
+robot_simulator/env/
+robot_simulator/.pytest_cache/
+robot_simulator/.mypy_cache/
+robot_simulator/.ruff_cache/
+robot_simulator/*.egg-info/
+robot_simulator/build/
+robot_simulator/dist/
+
+# Налаштування IDE
+robot_simulator/.idea/
+robot_simulator/.vscode/
+
+# OS-сміття
+robot_simulator/**/.DS_Store
+robot_simulator/**/Thumbs.db

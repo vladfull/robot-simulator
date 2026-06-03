@@ -1,0 +1,65 @@
+{
+  "name": "Flappy Bird",
+  "width": 15.0,
+  "height": 15.0,
+  "obstacles": [
+    {
+      "type": "rectangle",
+      "x": 3.5,
+      "y": 2.5,
+      "width": 1.0,
+      "height": 5.0
+    },
+    {
+      "type": "rectangle",
+      "x": 3.5,
+      "y": 11.0,
+      "width": 1.0,
+      "height": 8.0
+    },
+    {
+      "type": "rectangle",
+      "x": 6.5,
+      "y": 4.0,
+      "width": 1.0,
+      "height": 8.0
+    },
+    {
+      "type": "rectangle",
+      "x": 6.5,
+      "y": 12.5,
+      "width": 1.0,
+      "height": 5.0
+    },
+    {
+      "type": "rectangle",
+      "x": 12.5,
+      "y": 12.5,
+      "width": 4.0,
+      "height": 1.0
+    },
+    {
+      "type": "rectangle",
+      "x": 9.5,
+      "y": 10.5,
+      "width": 1.0,
+      "height": 9.0
+    },
+    {
+      "type": "rectangle",
+      "x": 9.5,
+      "y": 1.5,
+      "width": 1.0,
+      "height": 3.0
+    }
+  ],
+  "start_position": {
+    "x": 1.0,
+    "y": 1.0,
+    "theta": 0.0
+  },
+  "goal_position": {
+    "x": 13.5,
+    "y": 1.0
+  }
+}

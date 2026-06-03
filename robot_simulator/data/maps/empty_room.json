@@ -1,0 +1,15 @@
+{
+  "name": "Empty Room",
+  "width": 10.0,
+  "height": 10.0,
+  "obstacles": [],
+  "start_position": {
+    "x": 2.0,
+    "y": 2.0,
+    "theta": 0.0
+  },
+  "goal_position": {
+    "x": 8.0,
+    "y": 8.0
+  }
+}

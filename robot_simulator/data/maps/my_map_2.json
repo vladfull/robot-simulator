@@ -1,0 +1,65 @@
+{
+  "name": "Map123123",
+  "width": 15.0,
+  "height": 15.0,
+  "obstacles": [
+    {
+      "type": "rectangle",
+      "x": 3.5,
+      "y": 9.0,
+      "width": 1.0,
+      "height": 6.0
+    },
+    {
+      "type": "rectangle",
+      "x": 7.5,
+      "y": 5.0,
+      "width": 3.0,
+      "height": 2.0
+    },
+    {
+      "type": "rectangle",
+      "x": 10.0,
+      "y": 7.5,
+      "width": 2.0,
+      "height": 1.0
+    },
+    {
+      "type": "rectangle",
+      "x": 7.0,
+      "y": 9.25,
+      "width": 1.0,
+      "height": 4.5
+    },
+    {
+      "type": "rectangle",
+      "x": 7.5,
+      "y": 1.0,
+      "width": 6.0,
+      "height": 2.0
+    },
+    {
+      "type": "rectangle",
+      "x": 13.0,
+      "y": 2.5,
+      "width": 1.0,
+      "height": 3.0
+    },
+    {
+      "type": "rectangle",
+      "x": 7.0,
+      "y": 13.5,
+      "width": 5.0,
+      "height": 1.0
+    }
+  ],
+  "start_position": {
+    "x": 1.0,
+    "y": 1.0,
+    "theta": 0.0
+  },
+  "goal_position": {
+    "x": 13.5,
+    "y": 13.5
+  }
+}
